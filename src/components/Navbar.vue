@@ -24,8 +24,9 @@
         class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none"
         v-bind:class="{'hidden': !showMenu, 'block': showMenu}"
       >
+
 <!-- Nav Items begin -->
-      <div class="flex md:flex-grow ml-4 items-center " id="navbar-info">
+      <div class="flex flex-col lg:flex-row  ml-1 items-center" id="navbar-info">
           <ul class="flex flex-col lg:flex-row list-none ml-auto items-start">
             <li class="nav-item">
               <a class="px-3 py-2 flex items-center text-lg   font-bold leading-snug lg:text-white lg:hover:text-gray-300 text-gray-800 hover:opacity-75" href="#pablo">
@@ -81,14 +82,13 @@
               ><span class="lg:hidden inline-block ml-2">Star</span></a
             >
           </li>
-          <li class="flex items-center">
-            <button
-              class="bg-white text-gray-800 active:bg-gray-100 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"
-              type="button"
-              style="transition: all 0.15s ease 0s;"
-            >
-              <i class="fas fa-arrow-alt-circle-down"></i> Download
-            </button>
+          <li class="flex items-center px-2">
+ 
+          <button class="inline-flex text-white bg-indigo-500 font-semibold border border-white py-1 px-4 focus:outline-none hover:text-indigo hover:bg-white-600 rounded">Sign in</button>
+          </li >
+          <li class="flex items-center px-2">
+ 
+          <button class="inline-flex bg-transparent hover:bg-indigo-500 text-white font-semibold hover:text-white py-1 px-4 border border-indigo-500 hover:border-transparent rounded">Register</button>
           </li>
         </ul>
       </div>

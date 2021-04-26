@@ -17,7 +17,7 @@
         </div>
         <div class="container relative mx-auto">
           <div class="items-center flex flex-wrap">
-            <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+            <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-left">
               <div class="pr-12">
                 <h1 class="text-white font-semibold text-5xl">
                   Your story starts with us.
@@ -25,36 +25,17 @@
                 <p class="mt-4 text-lg text-gray-300">
                   This is a simple example of a Landing Page you can build using
                   Tailwind Starter Kit. It features multiple CSS components
-                  based on the Tailwindcss design system.
+                  
                 </p>
               </div>
             </div>
           </div>
         </div>
-        <div
-          class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden"
-          style="height: 70px;"
-        >
-          <svg
-            class="absolute bottom-0 overflow-hidden"
-            xmlns="http://www.w3.org/2000/svg"
-            preserveAspectRatio="none"
-            version="1.1"
-            viewBox="0 0 2560 100"
-            x="0"
-            y="0"
-          >
-            <polygon
-              class="text-gray-300 fill-current"
-              points="2560 0 2560 100 0 100"
-            ></polygon>
-          </svg>
-        </div>
       </div>
       <section class="pb-20 bg-gray-300 -mt-24">
         <div class="container mx-auto px-4">
           <div class="flex flex-wrap">
-            <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+            <div class="w-full pt-6 md:w-4/12 px-4 text-center">
               <div
                 class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
               >
@@ -72,7 +53,7 @@
                 </div>
               </div>
             </div>
-            <div class="w-full md:w-4/12 px-4 text-center">
+            <div class="w-full pt-6 md:w-4/12 px-4 text-center">
               <div
                 class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
               >
@@ -85,7 +66,7 @@
                   <h6 class="text-xl font-semibold">Free Revisions</h6>
                   <p class="mt-2 mb-4 text-gray-600">
                     Keep you user engaged by providing meaningful information.
-                    Remember that by this time, the user is curious.
+                    Remember that by this time 
                   </p>
                 </div>
               </div>
@@ -180,7 +161,7 @@
           class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
           style="height: 80px;"
         >
-          <svg
+          <!-- <svg
             class="absolute bottom-0 overflow-hidden"
             xmlns="http://www.w3.org/2000/svg"
             preserveAspectRatio="none"
@@ -193,7 +174,7 @@
               class="text-white fill-current"
               points="2560 0 2560 100 0 100"
             ></polygon>
-          </svg>
+          </svg> -->
         </div>
         <div class="container mx-auto px-4">
           <div class="items-center flex flex-wrap">
