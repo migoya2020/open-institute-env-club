@@ -1,0 +1,44 @@
+{
+    "programs": [
+        {
+            "id": 1,
+            "title": "Community Solutions",
+            "full-desc": "The Community Solutions Program (CSP) is a professional development program for the best and brightest global community leaders working on issues related to the environment, tolerance and conflict resolution, transparency and accountability, and women and gender. Community Solutions is a year-long program that includes a four-month fellowship at a U.S. community-based organization, government office or legislative body.Through tailored, hands-on learning experiences and the Community Leadership Institute, fellows gain valuable experience in U.S.-based community work, increase skills and knowledge, strengthen their capacity for leadership and development in their home countries, bring years of experience to community development in the United States, and create action plans for community-based initiatives back home.",
+            "short-desc": "The Community Solutions Program is a professional development program for the best and brightest global community leaders working in the fields of transparency and accountability, tolerance and conflict resolution, environmental issues and women’s issues.",
+            "sponsor": "University Club",
+            "image_url": "https://exchanges.state.gov/files/exchanges/styles/exchange_program_banner/public/program-banners/cl_banner_new.jpg?itok=VkXcK3Iz"
+        },
+        {
+            "id": 2,
+            "title": "Community College Initiative Program",
+            "full-desc": "The Community College Initiative Program (CCI) provides scholarships to spend up to one academic year at a United States community college. Participants build technical skills and may earn certificates in their fields of study.  Through professional internships, service learning, and community engagement activities, participants strengthen English language proficiency and immerse themselves in the culture and day-to-day life in the U.S. Participants study in one of the following eligible fields: agriculture, applied engineering, business management and administration, early childhood education, information technology, media, public safety, and tourism and hospitality management.",
+            "short-desc": "The Community College Initiative (CCI) Program provides opportunities for individuals from countries including Brazil, Cameroon, Costa Rica, Egypt, Ghana, India, Indonesia, Kenya, Pakistan, Panama, South Africa and Turkey to develop leadership, professional skills and English language proficiency, while studying at a community college in the United States.",
+            "sponsor": " College Foundation",
+            "image_url": "https://exchanges.state.gov/files/exchanges/styles/exchange_program_banner/public/program-banners/ben-franklin-banner.jpg?itok=IwGSkY7G"
+        },
+        {
+            "id": 3,
+            "title": "Benjamin Franklin Summer Institutes",
+            "full-desc": "The Benjamin Franklin Summer Institutes are intensive academic institutes hosted by a U.S. college or university. These programs are academic in nature, and focus on global issues, in addition to leadership and community service.During the exchanges, students and educators participate in workshops, community service activities, team building exercises, meetings with community leaders, leadership development, and focus on a specific theme, such as conflict resolution, social entrepreneurship, or environmental stewardship.",
+            "short-desc": "The Benjamin Franklin Summer Institutes are intensive academic institutes hosted by a U.S. college or university.These programs are academic in nature, and focus on global issues, in addition to leadership and community service.",
+            "sponsor": "University Club",
+            "image_url": "https://exchanges.state.gov/files/exchanges/styles/exchange_program_banner/public/program-banners/cl_banner_new.jpg?itok=VkXcK3Iz"
+        },
+        {
+            "id": 4,
+            "title": "African Women Entrepreneurship Program (AWEP)",
+            "full-desc": "The African Women’s Entrepreneurship Program (AWEP) assists women entrepreneurs across sub-Saharan Africa. These small and medium business owners are transforming their societies through economic development and social advocacy in their communities. Through the Department of State’s International Visitor Leadership Program (IVLP), approximately 30 African women entrepreneurs arrive in the United States each year to attend professional development meetings and network with U.S. policy makers, companies, industry associations, nonprofit groups, and multilateral development organizations. The three-week program allows the AWEP participants to share best practices, discuss common challenges and learn about the global economy and factors that lead to long-term business growth.",
+            "short-desc": "AWEP is a State Department initiative to identify and build networks of women entrepreneurs across Sub-Saharan Africa who are poised to transform their communities by owning; running; and operating small and medium businesses, and to drive social and economic progress in their communities and countries.",
+            "sponsor": "USAid",
+            "image_url": "https://exchanges.state.gov/files/exchanges/styles/exchange_program_banner/public/program-banners/940x282-awep-exchanges.jpg?itok=coqU0rJ9"
+        },
+        {
+            "id": 5,
+            "title": "African Undergraduate Exchange Program",
+            "full-desc": "The Global UGRAD student application opens on January 4, 2021. It will close on March 15, 2021 at 12 midnight Eastern Time.Note: The Global UGRAD Pakistan Program is currently closed. For further details, please email the Fulbright Commission in Pakistan at undergraduate@usefp.org.The Global Undergraduate Exchange Program (also known as the Global UGRAD Program) provides one semester scholarships to outstanding undergraduate students from around the world for non-degree full-time study combined with community service, professional development, and cultural enrichment.",
+            "short-desc": "The Global Undergraduate Exchange Program (Global UGrad) provides one semester and academic year scholarships to outstanding undergraduate students from East Asia, Eurasia and Central Asia, the Near East and South Asia and the Western Hemisphere.",
+            "sponsor": "Open University",
+            "image_url": "https://exchanges.state.gov/files/exchanges/styles/exchange_program_banner/public/program-banners/ugrad-students.jpg?itok=y1EKLPq8"
+        }
+    ]
+}
