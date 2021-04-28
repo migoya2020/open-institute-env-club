@@ -13,8 +13,22 @@
               class="w-full h-full absolute opacity-75 bg-black"
             ></span>
           </div>
-  </div>
+ <div class="container relative mx-auto">
+        <div class="items-center flex flex-wrap">
+                <div class="w-full  px-4 ml-auto mr-auto text-left">
+                    <div class="pr-12">
+                    <h1 class="text-white font-semibold text-5xl">
+                        Photo Gallary
+                    </h1>
+                    
+                    </div>
+                </div>
+                </div>
+        </div>
+   </div>
+ 
 <div class="container relative mx-auto">
+   
  <section class="text-gray-600 body-font">
   <div class="container px-5 py-24 mx-auto flex flex-wrap">
     <div class="flex w-full mb-20 flex-wrap py-4">

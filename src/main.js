@@ -7,7 +7,7 @@ import Landing from './views/Landing.vue'
 import Login from './views/Login.vue'
 import Gallary from './views/Gallary.vue'
 import Programmes from './views/Programmes.vue'
-
+import Register from './views/Register.vue'
 // styles
 
 import "@fortawesome/fontawesome-free/css/all.min.css";
@@ -26,6 +26,10 @@ const routes = [
 {
     path: "/gallary",
     component: Gallary,
+  },
+{
+    path: "/register",
+    component: Register,
   },
 {
     path: "/programmes",

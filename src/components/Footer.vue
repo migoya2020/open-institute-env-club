@@ -1,5 +1,5 @@
 <template>
-  <footer class="relative bg-gray-300 pt-8 pb-6">
+  <footer class="relative bg-gray-300 pt-16 pb-6">
     
     <div class="container mx-auto px-4">
       <div class="flex flex-wrap">
@@ -38,28 +38,28 @@
                 <li>
                   <a
                     class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                    href="https://www.creative-tim.com/presentation"
+                    href="/about"
                     >About Us</a
                   >
                 </li>
                 <li>
                   <a
                     class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                    href="https://blog.creative-tim.com"
-                    >Programms</a
+                    href="/programmes"
+                    >Programmes</a
                   >
                 </li>
                 <li>
                   <a
                     class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                    href="https://www.github.com/creativetimofficial"
+                    href="/cohorts"
                     >Cohorts</a
                   >
                 </li>
                 <li>
                   <a
                     class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                    href="https://www.creative-tim.com/bootstrap-themes/free"
+                    href="/gallary"
                     >Gallary</a
                   >
                 </li>
@@ -74,7 +74,7 @@
                 <li>
                   <a
                     class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                    href="https://github.com/creativetimofficial/argon-design-system/blob/master/LICENSE.md"
+                    href="#"
                     >info@openuniversity.co.ke</a
                   >
                 </li>
@@ -82,27 +82,27 @@
                 <li>
                   <a
                     class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                    href="https://creative-tim.com/privacy"
+                    href="#"
                     >Location: KICC 4 th Floor</a
                   >
                 </li>
                 <li>
                   <a
                     class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                    href="https://creative-tim.com/contact-us"
+                    href="#"
                     >+2547220000</a
                   >
                 </li>
               <li>
                   <a
                     class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                    href="https://creative-tim.com/terms"
+                    href="/terms"
                     >Terms &amp; Conditions</a
                   >
                 </li>
               </ul>
             </div>
-<div class="w-full lg:w-4/12 px-4">
+            <div class="w-full lg:w-4/12 px-4">
              <img
                   alt="..."
                   src="../assets/img/logoclub.png"
