@@ -84,11 +84,11 @@
           </li>
           <li class="flex items-center px-2">
  
-          <button class="inline-flex text-white bg-indigo-500 font-semibold border border-white py-1 px-4 focus:outline-none hover:text-indigo hover:bg-white-600 rounded">Sign in</button>
+          <button class="inline-flex text-white bg-indigo-500 font-semibold border border-white py-1 px-4 focus:outline-none hover:text-indigo hover:bg-white-600 rounded" @click="$router.push('login')">Sign in</button>
           </li >
           <li class="flex items-center px-2">
  
-          <button class="inline-flex bg-transparent hover:bg-indigo-500 text-white font-semibold hover:text-white py-1 px-4 border border-indigo-500 hover:border-transparent rounded">Register</button>
+          <button class="inline-flex bg-transparent hover:bg-indigo-500 text-white font-semibold hover:text-white py-1 px-4 border border-indigo-500 hover:border-transparent rounded" @click="$router.push('register')">Register</button>
           </li>
         </ul>
       </div>

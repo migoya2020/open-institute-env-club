@@ -36,7 +36,7 @@
   <!-- Card Section starts -->
         <section class="pb-20 bg-gray-300 -mt-24">
           <div class="container mx-auto px-4">
-            <div class="flex flex-wrap">
+            <div class="flex  flex-col md:flex-row ">
               <div class="w-full md:w-4/12  px-4 text-center">
                 <div
                   class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
@@ -47,10 +47,10 @@
                     >
                       <i class="fas fa-award"></i>
                     </div>
-                    <h6 class="text-xl  uppercase font-semibold">Zambia Special Tour</h6>
+                    <h6 class="text-xl  uppercase font-semibold">ZANZIBAR
+SPICE TOUR</h6>
                     <p class="mt-2 mb-4 text-gray-600">
-                      Divide details about your product or agency work into parts.
-                      A paragraph describing a feature will be enough.
+                       Eu laborum consectetur Lorem aliquip in esse aliquip et irure sunt veniam tempor officia.
                     </p>
                   </div>
                 </div>
@@ -63,12 +63,12 @@
                     <div
                       class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400"
                     >
-                      <i class="fas fa-retweet"></i>
+                      <i class="fas fa-award"></i>
                     </div>
-                    <h6 class="text-xl font-semibold">Free Revisions</h6>
+                    <h6 class="text-xl font-semibold">SLAVE TRADE
+TOUR</h6>
                     <p class="mt-2 mb-4 text-gray-600">
-                      Keep you user engaged by providing meaningful information.
-                      Remember that by this time 
+                      Id esse do excepteur ea excepteur veniam id elit aliquip.
                     </p>
                   </div>
                 </div>
@@ -81,12 +81,12 @@
                     <div
                       class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400"
                     >
-                      <i class="fas fa-fingerprint"></i>
+                     <i class="fas fa-award"></i>
                     </div>
-                    <h6 class="text-xl font-semibold">Verified Company</h6>
+                    <h6 class="text-xl font-semibold">MWALIMU
+NYERERE TOUR</h6>
                     <p class="mt-2 mb-4 text-gray-600">
-                      Write a few lines about each one. A paragraph describing a
-                      feature will be enough. Keep you user engaged!
+                      Enim qui elit aliqua nisi mollit quis proident non laboris minim ad elit.
                     </p>
                   </div>
                 </div>
@@ -99,12 +99,13 @@
                     <div
                       class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400"
                     >
-                      <i class="fas fa-fingerprint"></i>
+                     <i class="fas fa-award"></i>
                     </div>
-                    <h6 class="text-xl font-semibold">Verified Company</h6>
+                    <h6 class="text-xl font-semibold">KIGALI
+REMEMBERANCE
+TOUR</h6>
                     <p class="mt-2 mb-4 text-gray-600">
-                      Write a few lines about each one. A paragraph describing a
-                      feature will be enough. Keep you user engaged!
+                       Non magna dolor incididunt minim cillum elit esse cupidatat minim .
                     </p>
                   </div>
                 </div>
@@ -283,7 +284,7 @@
                 >
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
                 </p>
-               <button class="flex float-left mx-auto mt-20 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Register now</button>
+               <button class="flex float-left mx-auto mt-20 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg" @click="$router.push('register')">Register now</button>
               </div>
               <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
                 <div

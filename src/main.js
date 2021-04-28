@@ -4,6 +4,7 @@ import { createWebHistory, createRouter } from "vue-router";
 // views
 
 import Landing from './views/Landing.vue'
+import Login from './views/Login.vue'
 
 // styles
 
@@ -20,6 +21,8 @@ const routes = [
     path: "/landing",
     component: Landing,
   },
+{path: "/login", 
+component: Login},
   { path: "/:pathMatch(.*)*", redirect: "/landing" },
 ];
 
