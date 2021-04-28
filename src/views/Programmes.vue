@@ -16,7 +16,7 @@ import NavbarComponent from "../components/Navbar.vue";
 import FooterComponent from "../components/Footer.vue";
  
 export default {
-"name": "Programmes",
+name: "programmes",
 components: {
       NavbarComponent,
       FooterComponent,

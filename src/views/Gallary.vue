@@ -13,7 +13,7 @@ import GallaryComponent from "../components/Gallary"
 import NavbarComponent from "../components/Navbar.vue";
 import FooterComponent from "../components/Footer.vue";
 export default {
-"name": "Gallary",
+name: "Gallary",
 components: {
       NavbarComponent,
       FooterComponent,

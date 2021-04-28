@@ -15,12 +15,12 @@ import RegisterComponent from "../components/Register";
 import NavbarComponent from "../components/Navbar.vue";
 import FooterComponent from "../components/Footer.vue";
 export default {
-"name": "Register",
- componenets: {
+name: "register",
+components: {
     RegisterComponent,
-     NavbarComponent,
+    NavbarComponent,
     FooterComponent
-},
+    },
     setup () {
         
 

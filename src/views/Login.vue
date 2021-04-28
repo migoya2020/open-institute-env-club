@@ -13,7 +13,7 @@ import LoginComponent from "../components/Login";
 import NavbarComponent from "../components/Navbar.vue";
 import FooterComponent from "../components/Footer.vue";
 export default {
- name: "Login",
+name: "login",
 components: {
       NavbarComponent,
       FooterComponent,
