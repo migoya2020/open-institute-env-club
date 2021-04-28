@@ -29,22 +29,22 @@
       <div class="flex flex-col lg:flex-row  ml-1 items-center" id="navbar-info">
           <ul class="flex flex-col lg:flex-row list-none ml-auto items-start">
             <li class="nav-item">
-              <a class="px-3 py-2 flex items-center text-lg   font-bold leading-snug lg:text-white lg:hover:text-gray-300 text-gray-800 hover:opacity-75" @click="$router.push('about')">
+              <a class="px-3 py-2 flex items-center text-lg   font-bold leading-snug lg:text-white lg:hover:text-indigo-600 text-gray-800 hover:opacity-75" href="#" @click="$router.push('about')">
                 About
               </a>
             </li>
             <li class="nav-item">
-              <a class="px-3 py-2 flex items-center text-lg   font-bold leading-snug lg:text-white lg:hover:text-gray-300 text-gray-800 hover:opacity-75" @click="$router.push('programmes')">
+              <a class="px-3 py-2 flex items-center text-lg   font-bold leading-snug lg:text-white md:hover:text-indigo-500 text-gray-800 hover:opacity-75" href="#"  @click="$router.push('programmes')">
                 Programs
               </a>
             </li>
             <li class="nav-item">
-              <a class="px-3 py-2 flex items-center text-lg  font-bold leading-snug lg:text-white lg:hover:text-gray-300 text-gray-800 hover:opacity-75" @click="$router.push('cohorts')">
-                Cohorts
+              <a class="px-3 py-2 flex items-center text-lg  font-bold leading-snug lg:text-white lg:hover:text-indigo-500 text-gray-800 hover:opacity-75" href="#" @click="$router.push('cohorts')">
+                Cohorts 
               </a>
             </li>
             <li class="nav-item">
-              <a class="px-3 py-2 flex items-center text-lg  font-bold leading-snug lg:text-white lg:hover:text-gray-300 text-gray-800 hover:opacity-75" @click="$router.push('gallary')">
+              <a class="px-3 py-2 flex items-center text-lg  font-bold leading-snug lg:text-white lg:hover:text-indigo-600 text-gray-800 hover:opacity-75" href="#" @click="$router.push('gallary')">
                 Gallary
               </a>
             </li>
@@ -84,7 +84,7 @@
           </li>
           <li class="flex items-center px-2">
  
-          <button class="inline-flex text-white bg-indigo-500 font-semibold border border-white py-1 px-4 focus:outline-none hover:text-indigo hover:bg-white-600 rounded" @click="$router.push('login')">Sign in</button>
+          <button class="inline-flex text-white bg-indigo-500 font-semibold border border-white py-1 px-4 focus:outline-none hover:text-indigo hover:bg-white rounded" @click="$router.push('login')">Sign in</button>
           </li >
           <li class="flex items-center px-2">
  

@@ -1,6 +1,10 @@
+/* eslint-disable no-unused-vars */
 import { createApp } from "vue";
 import { createWebHistory, createRouter } from "vue-router";
-
+import {store} from './store';
+import {VeeValidate} from 'vee-validate';
+import { library } from '@fortawesome/fontawesome-svg-core';
+ 
 // views
 
 import Landing from './views/Landing.vue'
@@ -11,9 +15,9 @@ import Register from './views/Register.vue'
 // styles
 
 import "@fortawesome/fontawesome-free/css/all.min.css";
-
+ 
 // mouting point for the whole app
-
+ 
 import App from "@/App.vue";
 
 // routes
@@ -45,4 +49,4 @@ const router = createRouter({
   routes,
 });
 
-createApp(App).use(router).mount("#app");
+createApp(App).use(router, VeeValidate, store,).mount("#app");
