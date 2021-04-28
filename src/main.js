@@ -5,6 +5,8 @@ import { createWebHistory, createRouter } from "vue-router";
 
 import Landing from './views/Landing.vue'
 import Login from './views/Login.vue'
+import Gallary from './views/Gallary.vue'
+import Programmes from './views/Programmes.vue'
 
 // styles
 
@@ -20,6 +22,14 @@ const routes = [
   {
     path: "/landing",
     component: Landing,
+  },
+{
+    path: "/gallary",
+    component: Gallary,
+  },
+{
+    path: "/programmes",
+    component: Programmes,
   },
 {path: "/login", 
 component: Login},

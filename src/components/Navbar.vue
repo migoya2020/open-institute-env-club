@@ -29,22 +29,22 @@
       <div class="flex flex-col lg:flex-row  ml-1 items-center" id="navbar-info">
           <ul class="flex flex-col lg:flex-row list-none ml-auto items-start">
             <li class="nav-item">
-              <a class="px-3 py-2 flex items-center text-lg   font-bold leading-snug lg:text-white lg:hover:text-gray-300 text-gray-800 hover:opacity-75" href="#pablo">
+              <a class="px-3 py-2 flex items-center text-lg   font-bold leading-snug lg:text-white lg:hover:text-gray-300 text-gray-800 hover:opacity-75" @click="$router.push('about')">
                 About
               </a>
             </li>
             <li class="nav-item">
-              <a class="px-3 py-2 flex items-center text-lg   font-bold leading-snug lg:text-white lg:hover:text-gray-300 text-gray-800 hover:opacity-75" href="#pablo">
+              <a class="px-3 py-2 flex items-center text-lg   font-bold leading-snug lg:text-white lg:hover:text-gray-300 text-gray-800 hover:opacity-75" @click="$router.push('programmes')">
                 Programs
               </a>
             </li>
             <li class="nav-item">
-              <a class="px-3 py-2 flex items-center text-lg  font-bold leading-snug lg:text-white lg:hover:text-gray-300 text-gray-800 hover:opacity-75" href="#pablo">
+              <a class="px-3 py-2 flex items-center text-lg  font-bold leading-snug lg:text-white lg:hover:text-gray-300 text-gray-800 hover:opacity-75" @click="$router.push('cohorts')">
                 Cohorts
               </a>
             </li>
             <li class="nav-item">
-              <a class="px-3 py-2 flex items-center text-lg  font-bold leading-snug lg:text-white lg:hover:text-gray-300 text-gray-800 hover:opacity-75" href="#pablo">
+              <a class="px-3 py-2 flex items-center text-lg  font-bold leading-snug lg:text-white lg:hover:text-gray-300 text-gray-800 hover:opacity-75" @click="$router.push('gallary')">
                 Gallary
               </a>
             </li>
