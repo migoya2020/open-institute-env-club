@@ -56,15 +56,27 @@
 </template>
 
 <script>
+import axios from 'axios';
 export default { 
   component () {
     
    },
     setup () {
         
-
-        return {}
-    }
+      return {}
+    },
+data () {
+return {
+programmes: []
+}
+   
+},
+mounted () {
+    axios
+      .get('http://localhost:3000/programs')
+      .then(response => (this.programmes = response))
+     console.log(this.programmes);
+  }
 }
 </script>
 

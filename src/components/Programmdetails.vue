@@ -277,10 +277,10 @@
 </template>
 
 <script>
-import HeaderComponent from "./Header"
+ 
 export default { 
   component () {
-   HeaderComponent
+  
    },
     setup () {
         

@@ -1,9 +1,11 @@
+/* eslint-disable vue/no-parsing-error */
 <template>
+ 
 <div
           class="relative margin-top-auto  margin-bottom-auto flex content-center items-center justify-center"
           style="min-height: 100vh;"
         >
-  <div
+	<div
             class="absolute top-0 w-full h-full bg-center bg-cover"
              style='background-image: url("https://images.pexels.com/photos/5940827/pexels-photo-5940827.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");'
            
@@ -13,24 +15,37 @@
               class="w-full h-full absolute opacity-75 bg-black"
             ></span>
           </div>
-<div class="container relative mx-auto">
-<div class="items-center flex flex-wrap">
+		<div class="container relative mx-auto">
+		<div class="items-center flex flex-wrap">
             <div class="w-full max-w-sm p-8 space-y-3 rounded ml-auto mr-auto bg-white text-coolGray-800">
 		<h1 class="text-2xl font-bold text-center">Login</h1>
-		<form novalidate="" action="" class="space-y-6 ng-untouched ng-pristine ng-valid">
+	<form  name ="form"  action="" class="space-y-6 ng-untouched ng-pristine ng-valid">
 			<div class="space-y-1 text-sm">
-				<label for="username" class="block text-coolGray-600">Username</label>
-				<input type="text" name="username" id="username" placeholder="Username" class="w-full px-4 py-3 rounded border-coolGray-300 bg-coolGray-50 text-coolGray-800">
+				<label for="username" class="block text-coolGray-600">Username*</label>
+				<input type="text"   v-validate="'required'" name="username" id="username" placeholder="Username" class="form-control w-full px-4 py-3 rounded border-coolGray-300 bg-coolGray-50 text-coolGray-800">
 			</div>
+			<!-- Show Error Div -->
+			<div
+            v-if="errors.has('username')"
+            class="alert alert-danger"
+            role="alert"
+        >Username is required!</div>
+            
 			<div class="space-y-1 text-sm my-2">
 				<label for="password" class="block text-coolGray-600">Password</label>
-				<input type="password" name="password" id="password" placeholder="Password" class="w-full px-4 py-3 rounded border-coolGray-300 bg-coolGray-50 text-coolGray-800">
-				<div class="flex justify-end text-xs text-coolGray-600">
+				<input    v-validate="'required'" type="password" name="password" id="password" placeholder="Password" class=" form-control  w-full px-4 py-3 rounded border-coolGray-300 bg-coolGray-50 text-coolGray-800">
+				<div
+				v-if="errors.has('password')"
+				class="alert alert-danger"
+				role="alert"
+			>Password is required!</div>
+               <div class="flex justify-end text-xs text-coolGray-600">
 					<a href="#">Forgot Password?</a>
 				</div>
 			</div>
 			<button class="block w-full p-3 my- 2 text-center rounded text-xl font-semibold  text-white bg-indigo-600">Sign in</button>
-		</form>
+		
+	</form>
 		<div class="flex items-center py-4 space-x-1">
 			<div class="flex-1 h-px sm:w-16 bg-coolGray-300"></div>
 			<p class="px-3 text-sm text-coolGray-600">Login with social accounts</p>
@@ -59,8 +74,8 @@
 	</div> 
 </div>
 </div>
-</div>
  
+</div>
 </template>
 
 <script>
@@ -69,8 +84,15 @@ export default {
         
 
         return {}
-    }
-}
+    },
+data() {
+    return {
+      
+    };
+  },
+ 
+};
+ 
 </script>
 
 <style lang="scss" scoped>
