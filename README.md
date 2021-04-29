@@ -10,6 +10,25 @@
 
 > This web application is developed in Vue.js  and Tailwinds css. It use Google Firebase for Authentication
 
-## Installation
+ 
+## Build Setup
 
-> The installation instructions are low priority in the readme and should come at the bottom. The first part answers all their objections and now that they want to use it, show them how.
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
+
+# run unit tests
+npm run unit
+
+# run all tests
+npm test
+```
