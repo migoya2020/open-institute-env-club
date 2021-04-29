@@ -25,10 +25,17 @@
 > This web application is developed in Vue.js  and Tailwinds css. It use Google Firebase for Authentication
 It also uses a local Json file as a database
 
+## Login Requirements:
+> just use your email and password to  register 
+> and use the same details for  login
+
  
 ## Build Setup
 
 ``` bash
+# clone
+
+
 # install dependencies
 npm install
 
