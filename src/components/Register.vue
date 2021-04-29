@@ -17,10 +17,10 @@
 <div class="items-center flex flex-wrap">
             <div class="w-full max-w-sm p-8 space-y-3 rounded ml-auto mr-auto bg-white text-coolGray-800">
 		<h1 class="text-2xl font-bold text-center">Register</h1>
-		<form novalidate="" action="" class="space-y-6 ng-untouched ng-pristine ng-valid">
+		<form @submit.prevent="register"  class="space-y-6 ng-untouched ng-pristine ng-valid">
 			<div class="space-y-1 my-2 text-sm">
 				<label for="username" class="block text-coolGray-600">Email - is your username</label>
-				<input type="text" name="username" id="username" placeholder="Email" class="w-full px-4 py-3 rounded border-coolGray-300 bg-coolGray-50 text-coolGray-800">
+				<input v-model="email" type="text" name="username" id="username" placeholder="Email" class="w-full px-4 py-3 rounded border-coolGray-300 bg-coolGray-50 text-coolGray-800">
 			</div>
       <div class="space-y-1 my-2 text-sm">
 				<label for="username" class="block text-coolGray-600">Name</label>
@@ -28,13 +28,13 @@
 			</div>
 			<div class="space-y-1 text-sm my-4">
 				<label for="password" class="block text-coolGray-600">Password</label>
-				<input type="password" name="password" id="password" placeholder="Password" class="w-full px-4 py-3 rounded border-coolGray-300 bg-coolGray-50 text-coolGray-800">
+				<input  v-model="password" type="password" name="password" id="password" placeholder="Password" class="w-full px-4 py-3 rounded border-coolGray-300 bg-coolGray-50 text-coolGray-800">
 			</div>
       <div class="space-y-1 text-sm my-4">
-				<label for="password" class="block text-coolGray-600">Re-enter password</label>
-				<input type="password" name="password" id="password" placeholder="Password" class="w-full px-4 py-3 rounded border-coolGray-300 bg-coolGray-50 text-coolGray-800">
+				<label for="repassword" class="block text-coolGray-600">Re-enter password</label>
+				<input type="password" name="repassword" id="repassword" placeholder="Password" class="w-full px-4 py-3 rounded border-coolGray-300 bg-coolGray-50 text-coolGray-800">
 			</div>
-			<button class="block w-full p-3 my- 2 text-center rounded text-xl font-semibold  text-white bg-indigo-600">Register</button>
+			<button class="block w-full p-3 my- 2 text-center rounded text-xl font-semibold  text-white bg-indigo-600" type="submit" >Register</button>
 		</form>
 		<div class="flex items-center py-6 space-x-1">
 			<div class="flex-1 h-px sm:w-16 bg-coolGray-300"></div>
@@ -59,7 +59,7 @@
 			</button>
 		</div>
 		<p class="text-xs text-center sm:px-6 text-coolGray-600">Already have an account?
-			<a @click="$router.push('login')" class="underline text-coolGray-800">Sign in</a>
+			<a @click="$router.push('/login')" class="underline text-coolGray-800">Sign in</a>
 		</p>
 	</div> 
 </div>
@@ -68,10 +68,32 @@
 </template>
 
 <script>
+import firebase from 'firebase'
 export default {
+data() { 
+  return { 
+    email: '', 
+    password: '', 
+  }; 
+},
   setup() {
     return {};
   },
+methods: {
+  register() {
+    firebase
+      .auth()
+      .createUserWithEmailAndPassword(this.email, this.password)
+      .then(() => {
+        alert('Successfully registered! Please login.');
+// Rediect user to landing page/home
+        this.$router.push('/landing');
+      })
+      .catch(error => {
+        alert(error.message);
+      });
+  },
+},
 };
 </script>
 
