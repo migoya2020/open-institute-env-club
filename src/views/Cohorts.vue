@@ -10,6 +10,7 @@
 </template>
 
 <script>
+// Import neccessary componenets
 import CohortsComponent from "../components/Cohorts";
 import NavbarComponent from "../components/Navbar.vue";
 import FooterComponent from "../components/Footer.vue";

@@ -68,6 +68,7 @@
 </template>
 
 <script>
+// import Firebase
 import firebase from 'firebase'
 export default {
 data() { 
@@ -80,7 +81,9 @@ data() {
     return {};
   },
 methods: {
+
   register() {
+// Register users  with provided details
     firebase
       .auth()
       .createUserWithEmailAndPassword(this.email, this.password)

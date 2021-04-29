@@ -101,7 +101,8 @@
             >
           </li>
           <li class="flex items-center px-2">
-            <button v-if="!user"
+            <button
+              v-if="!user"
               class="inline-flex text-white bg-indigo-500 font-semibold border border-white py-1 px-4 focus:outline-none hover:text-indigo hover:bg-white rounded"
               @click="$router.push('/login')"
             >
@@ -109,18 +110,24 @@
             </button>
           </li>
           <li class="flex items-center px-2">
-            <button v-if="!user"
+            <button
+              v-if="!user"
               class="inline-flex bg-transparent hover:bg-indigo-500 text-white font-semibold hover:text-white py-1 px-4 border border-indigo-500 hover:border-transparent rounded"
               @click="$router.push('/register')"
             >
               Register
             </button>
-<button v-if="user" type="submit" @click="logOut()"
+            <button
+              v-if="user"
+              type="submit"
+              @click="logOut()"
               class="inline-flex bg-transparent hover:bg-indigo-500 text-white font-semibold hover:text-white py-1 px-4 border border-indigo-500 hover:border-transparent rounded"
             >
               Logout
             </button>
- <h2 class="px-4 text-white font-semibold" v-if="user" >{{user}}</h2>
+            <h2 class="px-4 text-white font-semibold" v-if="user">
+              {{ user }}
+            </h2>
           </li>
         </ul>
       </div>
@@ -128,7 +135,8 @@
   </nav>
 </template>
 <script>
-import firebase from 'firebase'
+// This is the Navigational Bar
+import firebase from "firebase";
 export default {
   name: "Navbar",
   data() {
@@ -138,27 +146,33 @@ export default {
     };
   },
   created() {
+// this is called when user is logged in
     firebase.auth().onAuthStateChanged((user) => {
       if (user) {
- 
+// pass the current logged in user to the user variable
         this.user = user.email;
       } else {
+// if no user is found, the variable is null
         this.user = null;
       }
     });
   },
   methods: {
+// This will toggle the  navebar and on  smaller device screens
     toggleNavbar: function () {
       this.showMenu = !this.showMenu;
     },
     logOut() {
+// This  logs out the current user
       firebase
         .auth()
+// logOut user
         .signOut()
+// the change auth State
         .then(() => {
           firebase.auth().onAuthStateChanged(() => {
-// Redirect after  logout
-            this.$router.push("/landing");
+            // Redirect  to login again after  logout
+            this.$router.push("/login");
           });
         });
     },

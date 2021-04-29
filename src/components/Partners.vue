@@ -28,7 +28,9 @@
 <script>
 export default {
   data() {
+
     return {
+// Return  list of partners 
       links: [
         { url: "https://dummyimage.com/420x260" },
         { url: "https://dummyimage.com/420x260" },
@@ -37,7 +39,7 @@ export default {
       ],
     };
   },
-  props: ["partner"],
+  
 };
 </script>
 

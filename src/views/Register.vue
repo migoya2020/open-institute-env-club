@@ -10,7 +10,7 @@
 </template>
 
 <script>
- 
+//  import our necessary componenets
 import RegisterComponent from "../components/Register";
 import NavbarComponent from "../components/Navbar.vue";
 import FooterComponent from "../components/Footer.vue";

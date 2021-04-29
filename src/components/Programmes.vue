@@ -228,7 +228,7 @@
 </template>
 
 <script>
- 
+//  Import the data from our  local json file
 import Programs from '../../db.json'
 import Programmdetails from './Programmdetails'
 export default {
@@ -236,7 +236,7 @@ export default {
 // eslint-disable-next-line vue/no-unused-components
    componenets: {Programmdetails},
   data() {
- 
+//  return all  programes from the database
     return {
     programme : {},
     programs : Programs.programs
@@ -245,9 +245,9 @@ export default {
   setup() {
     return {};
   },
- mounted() {
- console.log(this.programs[0])
-}
+//  mounted() {
+//  console.log(this.programs[0])
+// }
  
 };
 </script>

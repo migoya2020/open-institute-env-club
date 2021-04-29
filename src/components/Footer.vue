@@ -128,8 +128,11 @@
   </footer>
 </template>
 <script>
+// This is a Footer Componenet 
+// It displays on every componenet of the app
 export default {
 name:"Footer",
+// Return full current year
   data() {
     return {
       date: new Date().getFullYear()

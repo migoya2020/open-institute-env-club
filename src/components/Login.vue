@@ -119,6 +119,7 @@
 </template>
 
 <script>
+// import Firebase for login authentication
 import firebase from 'firebase'
 export default {
 data() { 
@@ -129,12 +130,13 @@ data() {
 },
 methods: {
   login() {
+// Authenticate the user
     firebase
       .auth()
       .signInWithEmailAndPassword(this.email, this.password)
       .then(() => {
         alert('Successfully logged in');
-// Redrect user to  landing /home page
+// Redirect user to  landing /home page
         this.$router.push('/landing');
       })
       .catch(error => {
