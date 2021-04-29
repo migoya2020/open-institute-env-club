@@ -1,7 +1,8 @@
 # open-institute-env-club
 
 # Login page
-![Test Image 6](master/login.png)
+ 
+![Alt text](login.png "Optional title")
 
 
 # Register page
