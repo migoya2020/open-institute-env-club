@@ -10,6 +10,7 @@ import Gallary from './views/Gallary.vue';
 import Programmes from './views/Programmes.vue';
 import Programmdetails from './views/Programmdetails.vue';
 import Register from './views/Register.vue';
+import Cohorts from './views/Cohorts.vue';
 // styles
 
 import '@fortawesome/fontawesome-free/css/all.min.css';
@@ -29,18 +30,25 @@ const routes = [
     path: '/gallary',
     component: Gallary,
   },
-  {
+  { 
     path: '/register',
     component: Register,
   },
   {
     path: '/programmes',
     component: Programmes,
+  },{
+  path: '/cohorts',
+    component: Cohorts,
+name: Cohorts,
   },
   // single program details route
   {
     path: '/programmes/:id',
+    props: true,
+    name: "Programmdetails",
     component: Programmdetails,
+
   },
   {
     path: '/login',

@@ -1,4 +1,4 @@
-<template>
+<template >
   <div>
     <navbar-component></navbar-component>
     <header-component></header-component>
@@ -10,13 +10,13 @@
 </template>
 
 <script>
-import HeaderComponent from "../components/Header";
-import ProgrammdetailsComponent from "../components/Programmdetails";
+import ProgrammdetailsComponent from "../components/Programmdetails.vue";
 import NavbarComponent from "../components/Navbar.vue";
 import FooterComponent from "../components/Footer.vue";
+import HeaderComponent from "../components/Header.vue";
 export default {
-  name: "programmdetails",
-  component: {
+  name: "Progdetails",
+  components: {
     ProgrammdetailsComponent,
     HeaderComponent,
     NavbarComponent,

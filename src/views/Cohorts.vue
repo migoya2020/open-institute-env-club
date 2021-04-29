@@ -1,33 +1,31 @@
-<template >
-  <div>
+<template>
+    <div>
     <navbar-component></navbar-component>
     <header-component></header-component>
     <main>
-      <programmes-component></programmes-component>
+      <cohorts-component></cohorts-component>
     </main>
     <footer-component></footer-component>
   </div>
 </template>
 
 <script>
-import HeaderComponent from "../components/Header.vue";
-import ProgrammesComponent from "../components/Programmes.vue";
+import CohortsComponent from "../components/Cohorts";
 import NavbarComponent from "../components/Navbar.vue";
 import FooterComponent from "../components/Footer.vue";
-
+import HeaderComponent from "../components/Header.vue";
 export default {
-  name: "programmes",
+  name: "Cohorts",
   components: {
+    CohortsComponent,
+    HeaderComponent,
     NavbarComponent,
     FooterComponent,
-    ProgrammesComponent,
-    HeaderComponent,
   },
-  setup() {
-    return {};
-  },
-};
+  
+}
 </script>
 
 <style lang="scss" scoped>
+
 </style>

@@ -22,23 +22,15 @@
 	<form  name ="form"  action="" class="space-y-6 ng-untouched ng-pristine ng-valid">
 			<div class="space-y-1 text-sm">
 				<label for="username" class="block text-coolGray-600">Username*</label>
-				<input type="text"   v-validate="'required'" name="username" id="username" placeholder="Username" class="form-control w-full px-4 py-3 rounded border-coolGray-300 bg-coolGray-50 text-coolGray-800">
+				<input type="text"  name="username" id="username" placeholder="Username" class="form-control w-full px-4 py-3 rounded border-coolGray-300 bg-coolGray-50 text-coolGray-800">
 			</div>
 			<!-- Show Error Div -->
-			<div
-            v-if="errors.has('username')"
-            class="alert alert-danger"
-            role="alert"
-        >Username is required!</div>
+			
             
 			<div class="space-y-1 text-sm my-2">
 				<label for="password" class="block text-coolGray-600">Password</label>
-				<input    v-validate="'required'" type="password" name="password" id="password" placeholder="Password" class=" form-control  w-full px-4 py-3 rounded border-coolGray-300 bg-coolGray-50 text-coolGray-800">
-				<div
-				v-if="errors.has('password')"
-				class="alert alert-danger"
-				role="alert"
-			>Password is required!</div>
+				<input  type="password" name="password" id="password" placeholder="Password" class=" form-control  w-full px-4 py-3 rounded border-coolGray-300 bg-coolGray-50 text-coolGray-800">
+				
                <div class="flex justify-end text-xs text-coolGray-600">
 					<a href="#">Forgot Password?</a>
 				</div>
