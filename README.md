@@ -34,9 +34,10 @@ It also uses a local Json file as a database
 
 ``` bash
 # clone
-
+git clone https://github.com/migoya2020/open-institute-env-club.git
 
 # install dependencies
+cd open-institute-env-club 
 npm install
 
 # serve with hot reload at localhost:8080
