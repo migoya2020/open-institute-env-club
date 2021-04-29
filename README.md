@@ -6,12 +6,12 @@
 
 
 # Register page
-![Test Image 6](master/register.png)
+![Alt text](register.png "Optional title")
 
 
 # Homepage
  
-![Test Image 6](master/fullpage.png)
+![Alt text](fullpage.png "Optional title")
 
 
 # Open Institute University Environmental Club
