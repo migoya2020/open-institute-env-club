@@ -1,4 +1,17 @@
-#open-institute-env-club
+# open-institute-env-club
+
+# Login page
+![Test Image 6](master/login.png)
+
+
+# Register page
+![Test Image 6](master/register.png)
+
+
+# Homepage
+ 
+![Test Image 6](master/fullpage.png)
+
 
 # Open Institute University Environmental Club
 
@@ -9,6 +22,7 @@
 ## Code Samples
 
 > This web application is developed in Vue.js  and Tailwinds css. It use Google Firebase for Authentication
+It also uses a local Json file as a database
 
  
 ## Build Setup
