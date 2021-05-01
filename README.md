@@ -1,16 +1,17 @@
 # open-institute-env-club
 
 # Login page
-![Test Image 6](master/login.png)
+ 
+![Alt text](login.png "Optional title")
 
 
 # Register page
-![Test Image 6](master/register.png)
+![Alt text](register.png "Optional title")
 
 
 # Homepage
  
-![Test Image 6](master/fullpage.png)
+![Alt text](fullpage.png "Optional title")
 
 
 # Open Institute University Environmental Club
@@ -21,14 +22,22 @@
 
 ## Code Samples
 
-> This web application is developed in Vue.js  and Tailwinds css. It use Google Firebase for Authentication
+> This web application is developed in Vue.js  and Tailwinds css. It uses Google Firebase for Authentication
 It also uses a local Json file as a database
+
+## Login Requirements:
+> just use your email and password to  register 
+> and use the same details for  login
 
  
 ## Build Setup
 
 ``` bash
+# clone
+git clone https://github.com/migoya2020/open-institute-env-club.git
+
 # install dependencies
+cd open-institute-env-club 
 npm install
 
 # serve with hot reload at localhost:8080
