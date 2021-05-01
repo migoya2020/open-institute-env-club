@@ -70,7 +70,7 @@
             <div class="flex-1 h-px sm:w-16 bg-coolGray-300"></div>
           </div>
           <div class="flex justify-center space-x-4">
-            <button aria-label="Log in with Google" class="p-3 rounded-sm">
+            <button @click="sociallogin()" aria-label="Log in with Google" class="p-3 rounded-sm">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 32 32"
@@ -143,6 +143,17 @@ methods: {
         alert(error.message);
       });
   },
+sociallogin(){
+const provider  = new  firebase.auth.GoogleAuthProvider();
+firebase.auth().signInWithPopup(provider).then(() => {
+ alert('Successfully logged in. we are redirecting you');
+this.$router.replace("/landing");
+}).catch((error)  => { alert(error.message)});
+  
+}
+
+
+
 },
  
 }
